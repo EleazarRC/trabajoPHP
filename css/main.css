@@ -1,7 +1,32 @@
-a {
-    margin: 10px;
+body{
+    width: 70%;
+    margin: 25px auto;
 }
-.ordenacion{
-    border: 1px solid black;
+
+
+table{
+    width: 100%;
+}
+
+table, td, tr, th{
+   
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7ea8f8;
+    border-style: solid;
+    color: #000000;
+}
+
+.ordenacion, .navegacion{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7ea8f8;
     padding: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
 }
+.ordenacion a, .navegacion a{
+   margin: 2px 10px 2px 10px;
+}
+
